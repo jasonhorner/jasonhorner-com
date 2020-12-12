@@ -59,7 +59,7 @@ plugins:
 
 author:
   name   : "Jason Horner"
-  avatar : "/assets/images/bio-photo.jpg"
+  avatar : "https://www.gravatar.com/avatar/9d3a57f5aa229964e0c046853e556823"
   bio    : "Global Thought Leader and International Man of Leisure"
   links:
     - label: "Website"
@@ -79,13 +79,13 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://twitter.com/jasonhorner"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/jasonhorner"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://instagram.com/iamjasonhorner"
 
 defaults:
   # _posts
