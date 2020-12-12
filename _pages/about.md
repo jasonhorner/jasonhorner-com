@@ -2,7 +2,11 @@
 permalink: /about/
 title: "About"
 ---
+## Jason Horner
+### Global Thought Leader and International Man of Leisure
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+Hi, my name is Jason I'm a Independent consultant and trainer focused on the Azure Data Platform. I spend most of my day helping clients solve business problems mostly in the Data and Advanced Analytics spaces. Sometimes this involves various and sundry cloud technologies including Azure Data Factory, Azure Synapse Analytics, Azure Data Lake Store, Azure Databricks, HDInsight and Azure SQL Database. I'm fluent in several languages including: SQL, C#, Python, and PowerShell.
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+I'm a Microsoft Certified Master of SQL Server (MCM) and have been recognized for my technical excellence and evangelism efforts by Microsoft by being previously awarded the Most Valuable Professional (MVP) for the 6 years.
+
+In my off hours I like to snowboard, karaoke, ride roller coasters and play arcade games
