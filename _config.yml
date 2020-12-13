@@ -31,7 +31,7 @@ remote_theme: mmistakes/minimal-mistakes
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/Denver # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
   - _pages
@@ -74,6 +74,9 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/iamjasonhorner"
+    - label: "youtube"
+      icon: "fab fa-youtube-square"
+      url: "https://www.youtube.com/channel/UCTf7ajReSc1r0SaE2MDzWRw"
 
 footer:
   links:
@@ -86,6 +89,9 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/iamjasonhorner"
+    - label: "youtube"
+      icon: "fab fa-youtube-square"
+      url: "https://www.youtube.com/channel/UCTf7ajReSc1r0SaE2MDzWRw"
 
 defaults:
   # _posts
