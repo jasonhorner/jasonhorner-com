@@ -12,7 +12,7 @@ Hi, my name is Jason I'm a Independent consultant and trainer focused on the Azu
 I'm a Microsoft Certified Master of SQL Server (MCM) and have been recognized for my technical excellence and evangelism efforts by Microsoft by being previously awarded the Most Valuable Professional (MVP) for the 6 years.
 
 In my off hours I like to snowboard, karaoke, ride roller coasters and play arcade games
-![snowboard](/assets/images/melon.jpg "Winterpark")
+![snowboard](../assets/images/melon.jpg "Winterpark")
 
 ### I Can Talk Nerdy For You
 I love to speak about a variety of topics 
