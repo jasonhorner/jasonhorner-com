@@ -16,4 +16,7 @@ Our training is focused on real world and best practices and covers topics with 
 - Cosmos DB
 - DevOps
 ### Get Started
-Find out more
+
+Find out if the [Training Offerings Introduction Call](https://calendly.com/jjhconsulting/presales-call "Training Offerings Introduction Call")  are right for you
+
+Schedule a [Custom Training Delivery (https://calendly.com/jjhconsulting/presales-call "Training Offerings Introduction Call")
