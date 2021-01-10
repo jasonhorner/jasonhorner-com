@@ -1,6 +1,6 @@
 ---
 permalink: /services/
-title: "services"
+title: "Service Offerings"
 ---
 Below is a list of our primary service offerings.
 
