@@ -7,11 +7,11 @@ main:
 #   url: /tags/
   - title: "About"
     url: /about/
-  - title: "Speaking"
-    url: /speaking/
-  - title: "Training"
-    url: /training/
   - title: "Services"
     url: /services/
   - title: "Sherpa"
     url: /sherpa/
+  - title: "Training"
+    url: /training/
+#  - title: "Speaking"
+#    url: /speaking/

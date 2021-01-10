@@ -2,10 +2,10 @@
 permalink: /services/
 title: "services"
 ---
-## Services
-TBD
+Below is a list of our primary service offerings.
+
 ### Service Offerings
-Sherpa Services (Coaching and Mentoring)
-Training
-Architectural Design Sessions
-Modern Data Jumpstart
+- Sherpa Services (Coaching and Mentoring)
+- Training
+- Architectural Design Sessions
+- Modern Data Jumpstart
