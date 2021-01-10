@@ -17,6 +17,6 @@ Our training is focused on real world and best practices and covers topics with 
 - DevOps
 ### Get Started
 
-Find out if the [Training Offerings Introduction Call](https://calendly.com/jjhconsulting/presales-call "Training Offerings Introduction Call")  are right for you
+Find out if the [Training Offerings](https://calendly.com/jjhconsulting/presales-call "Training Offerings Introductory Call")  are right for you
 
-Schedule a [Custom Training Delivery (https://calendly.com/jjhconsulting/presales-call "Training Offerings Introduction Call")
+Schedule a [Custom Training Delivery](https://calendly.com/jjhconsulting/presales-call "Training Delivery Scheduling")

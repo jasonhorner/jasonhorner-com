@@ -18,4 +18,4 @@ The money is non-refundable, but satisfaction is guaranteed.
 
 Find out if the [Sherpa Session Introduction Call](https://calendly.com/jjhconsulting/presales-call "Presales Intro Call") is right for your problem
 
-Schedule a 90 Minute [Sherpa Session] (https://calendly.com/jjhconsulting/sherpa-session "Sherpa Session Signup")
+Schedule a 90 Minute [Sherpa Session](https://calendly.com/jjhconsulting/sherpa-session "Sherpa Session Signup")
