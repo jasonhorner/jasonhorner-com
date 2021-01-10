@@ -22,4 +22,4 @@ I love to speak about a variety of topics
 ### Papa Needs Brand New Shoes
 Always looking for new meaningful and interesting work: 
 [me@jasonhorner.com](mailto:me@jasonhorner.com)
-[Book a time to speak with me] (https://calendly.com/jjhconsulting "Book a Meeting")
+[Book a time to speak with me](https://calendly.com/jjhconsulting "Book a Meeting")
