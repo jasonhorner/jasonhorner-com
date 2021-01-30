@@ -1,6 +1,6 @@
 ---
 permalink: /presentations/backthetruckup
-title: "Service Offerings"
+title: "Back The Truck Up"
 ---
 Below are the resources for "Back the Truck Up
 
