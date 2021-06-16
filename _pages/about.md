@@ -19,6 +19,9 @@ In my off hours I like to snowboard, karaoke, ride roller coasters and play arca
 I love to speak about a variety of topics 
 [sessionize - jason horner](https://sessionize.com/jason-horner/)
 
+<script type="text/javascript" src="https://sessionize.com/api/speaker/sessions/8cfab663-b768-4828-9ff5-89f8ecf47a09/0x0x3fb393x"></script>![image](https://user-images.githubusercontent.com/7981510/122296488-b4a54880-ceb7-11eb-912b-06fe273b55f9.png)
+
+
 
 ### Papa Needs Brand New Shoes
 Always looking for new meaningful and interesting work: 
