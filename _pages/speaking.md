@@ -2,7 +2,7 @@
 permalink: /speaking/
 title: "Speaking"
 ---
-## 
+## Need a Speaker?
 I'd love to speak at your upcoming event or user group don't hesitate to email me or reach out on linkedIn or twitter.
 [sessionize - jason horner](https://sessionize.com/jason-horner/)
 
