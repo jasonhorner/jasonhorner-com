@@ -14,18 +14,17 @@ search: false
   border-bottom: 0;
 }
 
+// Minimal Mistakes' single layout renders page.title above page content.
+// Hide that duplicate heading only on the Consulting page; preserve page.title
+// in front matter for SEO and preserve the visible in-content H1.
+.consulting-landing .page__title {
+  display: none;
+}
+
 .consulting-page {
   &__intro {
     max-width: 58rem;
     margin-bottom: 2.5rem;
-  }
-
-  &__eyebrow {
-    margin-bottom: 0.75rem;
-    font-size: 0.8em;
-    letter-spacing: 0.08em;
-    opacity: 0.8;
-    text-transform: uppercase;
   }
 
   &__headline {
