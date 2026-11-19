@@ -47,3 +47,36 @@ targeting `master` and can also be started manually. Wait for the check to
 pass and review its logs if it fails; dependency installation or build errors
 fail the check. Report local checks you could not run as limitations. CI does
 not deploy or publish the site.
+
+## Issue types and ownership
+
+Use **New issue** and choose the form that best fits the work:
+
+- **Bug report** for broken behavior, accessibility defects, or build failures.
+- **Improvement or technical task** for features, maintenance, and architecture.
+- **Content or navigation change** for personal-site copy, links, metadata, and visitor journeys.
+- **Blank issue** for investigations or work that does not yet fit a form.
+
+Before assigning implementation, agree on the outcome and testable acceptance
+criteria. Keep GitHub Issues and PRs as the source of truth; Teams discussions
+can coordinate the work but should link to the relevant issue and PR. Do not
+copy private Teams or client details into this public repository.
+
+## Reviews and handoffs
+
+For each implementation PR, record what changed, related issue, actual checks
+and their results, any untested behavior, and whether AI was used. Explicitly
+request human diff review; a green CI build does not prove visual or content
+correctness. After addressing review feedback, report a short handoff:
+
+- **Completed:** the work or review response and links.
+- **Validation:** checks that passed, failed, or could not run.
+- **Blockers:** unresolved findings or decisions.
+- **Next action owner:** person or agent expected to act next.
+
+When submitting a GitHub comment or review drafted by an AI assistant through
+the owner's connected account, include a short attribution such as:
+"Prepared with ChatGPT at the repository owner's request; submitted via the
+owner's authorized GitHub connection." This clarifies authorship without
+pretending the GitHub account is a separate reviewer. The owner retains
+approval authority for merging and deployment.
