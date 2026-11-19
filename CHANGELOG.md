@@ -7,6 +7,10 @@ This website does not currently publish numbered releases or follow a declared S
 
 ## [Unreleased]
 
+### Changed
+
+- Refreshed the About page biography, replaced its portrait, and linked directly to the dedicated Speaking and Consulting pages (#15).
+
 ### Added
 
 - Introduced a human-readable changelog and a requirement to review notable changes in each pull request (#13).
