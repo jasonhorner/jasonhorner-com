@@ -20,3 +20,18 @@
   report failures and untested behavior, and request human review.
 - Never disclose secrets, private Teams discussions, or confidential content
   in public issues or pull requests.
+
+## Agent coordination and transparent handoffs
+
+- Use the issue form's problem, scope, exclusions, acceptance criteria, and
+  validation expectations as the authoritative implementation contract.
+  Clarify material conflicts before expanding scope.
+- Keep GitHub Issues and PRs authoritative; a Teams thread is coordination,
+  not evidence that a check passed or a change shipped.
+- When leaving reviews or comments via the owner's authorized GitHub connection,
+  state that assistance was AI-prepared and who authorized submission. Do not
+  imply a separate human or agent GitHub identity where none exists.
+- End each implementation or review turn with **completed**, **validation
+  results**, **blockers**, and **next action owner**, including links to the
+  issue, PR, and CI run where available.
+- Never treat passing CI or a review comment as permission to merge or deploy.
