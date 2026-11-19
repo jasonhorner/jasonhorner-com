@@ -2,12 +2,11 @@
 title: "Consulting"
 permalink: /consulting/
 description: "Practical consulting, coaching, and training for data platform and analytics challenges."
-classes: wide
+classes: wide consulting-landing
 ---
 <div class="consulting-page">
   <header class="consulting-page__intro">
-    <p class="consulting-page__eyebrow">JasonHorner.com / Consulting</p>
-    <h2 class="consulting-page__headline">Good data solutions start with understanding the problem.</h2>
+    <h1 class="consulting-page__headline">Good data solutions start with understanding the problem.</h1>
     <p>I've spent my career helping teams tackle complicated data platform and analytics challenges. Sometimes that means solving a specific technical problem. Other times, it's figuring out what to build, what to fix, or what to stop doing.</p>
     <p>I provide consulting, coaching, and training through Empty Cup Consulting.</p>
     <p>Not sure where to start? Choose the path that sounds most like your situation.</p>
