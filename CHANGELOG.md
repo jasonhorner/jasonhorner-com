@@ -9,6 +9,8 @@ This website does not currently publish numbered releases or follow a declared S
 
 ### Changed
 
+- Updated the homepage author portrait and refreshed X branding in the social links (#19).
+
 - Aligned the default branch, pull-request CI trigger, and contributor/agent instructions with the rename from `master` to `main` (#17).
 
 - Refreshed the About page biography, replaced its portrait, and linked directly to the dedicated Speaking and Consulting pages (#15).
