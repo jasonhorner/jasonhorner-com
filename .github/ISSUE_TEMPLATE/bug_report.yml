@@ -1,0 +1,50 @@
+name: "Bug report"
+description: "Report a broken page, accessibility regression, or build issue."
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting an issue with JasonHorner.com.
+        Do not include secrets, client data, or private conversations.
+  - type: input
+    id: location
+    attributes:
+      label: "Affected page, URL, or file"
+      description: "Provide the public URL or repository path, when known."
+      placeholder: "https://jasonhorner.com/about/"
+  - type: textarea
+    id: observed
+    attributes:
+      label: "What is happening?"
+      description: "Describe the observed behavior and its impact."
+      placeholder: "What went wrong, and who is affected?"
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: "What should happen instead?"
+      description: "Describe the expected outcome."
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: "Steps to reproduce and evidence"
+      description: "Add steps, browser/device details, screenshots or error logs as applicable. Redact sensitive data."
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: "Acceptance criteria"
+      description: "List observable conditions that would confirm the bug is resolved."
+      placeholder: |
+        - [ ] The issue no longer reproduces on the affected page.
+        - [ ] The Jekyll build passes.
+    validations:
+      required: true
+  - type: textarea
+    id: validation
+    attributes:
+      label: "Suggested validation and constraints"
+      description: "Mention tests, accessibility, SEO, URLs, dependencies, or uncertainties worth checking."
