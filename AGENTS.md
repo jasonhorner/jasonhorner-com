@@ -1,6 +1,6 @@
 # Instructions for coding agents
 
-- Repository: `jasonhorner/jasonhorner-com`. The PR target branch is `master`.
+- Repository: `jasonhorner/jasonhorner-com`. The PR target branch is `main`.
 - This is a Jekyll site using the Minimal Mistakes `remote_theme` and the
   `github-pages` gem. Before editing, inspect the relevant repository files,
   existing project conventions, and linked issue; do not invent paths,
@@ -10,7 +10,7 @@
   A managed Copilot workspace may require the enforced
   `copilot/feature/JJH-<issue-number>-<short-description>` prefix; keep the
   issue-number convention and do not bypass that prefix. Target pull requests
-  at `master` and link the originating issue.
+  at `main` and link the originating issue.
   Keep changes scoped and reviewable.
 - Preserve the existing architecture, public URLs, custom domain, and GitHub
   Pages-compatible dependencies unless an issue explicitly approves changing
@@ -56,7 +56,7 @@
 
 Use `Closes #N` or `Fixes #N` in the PR description **only** when the merged
 PR fully satisfies issue N; GitHub can then close the issue on merge to
-`master`. Use `Related to #N` when the PR makes partial progress or the issue
+`main`. Use `Related to #N` when the PR makes partial progress or the issue
 is an ongoing audit or umbrella. After merge, verify whether each linked issue
 was closed appropriately; do not automatically close unfinished work.
 
