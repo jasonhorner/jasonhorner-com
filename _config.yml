@@ -63,15 +63,15 @@ plugins:
 
 author:
   name   : "Jason Horner"
-  avatar : "https://www.gravatar.com/avatar/9d3a57f5aa229964e0c046853e556823"
+  avatar : "/assets/images/jason-portrait.jpg"
   bio    : "Global Thought Leader and International Man of Leisure"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://jasonhorner.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/jasonhorner"
+    - label: "X"
+      icon: "fab fa-fw fa-square-x-twitter"
+      url: "https://x.com/jasonhorner"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/jasonhorner"
@@ -84,9 +84,9 @@ author:
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/jasonhorner"
+    - label: "X"
+      icon: "fab fa-fw fa-square-x-twitter"
+      url: "https://x.com/jasonhorner"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/jasonhorner"
