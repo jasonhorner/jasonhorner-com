@@ -1,0 +1,59 @@
+name: "Improvement or technical task"
+description: "Propose a site enhancement, maintenance task, or technical improvement."
+title: "[Improvement]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Describe the problem and desired outcome before prescribing an implementation.
+        Work starts only after scope review. Do not include confidential information.
+  - type: textarea
+    id: problem
+    attributes:
+      label: "Problem or opportunity"
+      description: "What is not working well, or what could be better?"
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: "Desired outcome"
+      description: "Describe what success looks like for visitors or maintainers."
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: "In scope and out of scope"
+      placeholder: |
+        In scope:
+        - ...
+
+        Out of scope:
+        - ...
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: "Acceptance criteria"
+      description: "Provide specific, testable conditions."
+      placeholder: |
+        - [ ] ...
+        - [ ] Applicable Jekyll CI passes.
+    validations:
+      required: true
+  - type: textarea
+    id: validation
+    attributes:
+      label: "Validation approach"
+      description: "How will the changes be tested or inspected? Note any visual or accessibility checks."
+  - type: textarea
+    id: dependencies
+    attributes:
+      label: "Dependencies, risks, and related work"
+      description: "Link related issues/PRs and identify compatibility, URL, SEO, or rollout concerns."
+  - type: textarea
+    id: handoff
+    attributes:
+      label: "Handoff / next action owner"
+      description: "Who should review the scope or take the next step? State when implementation is authorized."
+      placeholder: "Next: repository owner reviews scope before implementation."

@@ -1,0 +1,2 @@
+# Keep an escape hatch for investigations that do not fit a template.
+blank_issues_enabled: true

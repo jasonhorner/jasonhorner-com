@@ -1,0 +1,50 @@
+name: "Content or navigation change"
+description: "Request a personal-site page, copy, navigation, or SEO content update."
+title: "[Content]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Keep JasonHorner.com focused on Jason's personal identity, writing, and speaking.
+        Verify biographical claims and external destinations before publication.
+        Do not include private or client information.
+  - type: textarea
+    id: current
+    attributes:
+      label: "Current content or visitor problem"
+      description: "Which existing page or journey needs attention? Include URLs or paths if known."
+    validations:
+      required: true
+  - type: textarea
+    id: proposed
+    attributes:
+      label: "Proposed copy or experience"
+      description: "Describe the desired content, audience, tone, and call to action; paste draft copy when available."
+    validations:
+      required: true
+  - type: textarea
+    id: links
+    attributes:
+      label: "Links, images, and other assets"
+      description: "List destinations to verify, approved assets, image alt text, or sources of truth."
+  - type: textarea
+    id: preservation
+    attributes:
+      label: "URLs, navigation, SEO, and accessibility"
+      description: "Specify intentional URL changes, navigation impact, metadata, headings, link text, and accessibility expectations."
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: "Acceptance criteria"
+      description: "What must be true before the change can be reviewed and merged?"
+      placeholder: |
+        - [ ] Approved content is present on the expected page.
+        - [ ] Links and claims are verified.
+        - [ ] Jekyll CI passes.
+    validations:
+      required: true
+  - type: textarea
+    id: review
+    attributes:
+      label: "Review and handoff"
+      description: "Identify the content reviewer, any open decisions, and next action owner."

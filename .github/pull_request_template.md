@@ -23,3 +23,9 @@
 - [ ] Human-reviewed the diff (or N/A if not applicable).
 - AI used: <!-- Yes/no; summarize use or N/A. -->
 - Untested behavior or risks: <!-- List them or N/A. -->
+
+## Status and Handoff
+
+- Current status: <!-- Ready for review / changes requested / blocked / other -->
+- Remaining blockers or decisions: <!-- List issues, or N/A -->
+- Next action owner: <!-- Person or agent expected to act next -->
