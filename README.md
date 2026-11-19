@@ -40,6 +40,8 @@ The build outputs to `_site/`; `jekyll serve` prints a local preview address. Th
 
 GitHub Actions runs the Jekyll build for pull requests targeting `master`. A passing build does not verify page appearance, external links, or accessibility.
 
+For notable changes to the website and development workflow, see the [changelog](CHANGELOG.md).
+
 ## Contributing and AI-assisted development
 
 Start with a [GitHub issue](https://github.com/jasonhorner/jasonhorner-com/issues/new/choose) that defines the problem, scope, and acceptance criteria. Read [CONTRIBUTING.md](CONTRIBUTING.md) for the contributor workflow and definition of done. Coding agents should also follow [AGENTS.md](AGENTS.md).
