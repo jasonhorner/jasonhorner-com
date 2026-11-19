@@ -116,3 +116,27 @@ explicit from the owner; record it in the issue or working handoff.
 The owner controls scope and merges. Implementers make scoped changes and fix
 review feedback in the existing PR. Independent reviewers provide findings.
 GitHub Actions provides build evidence, not acceptance or deployment approval.
+
+## Maintaining the changelog
+
+The root [CHANGELOG.md](CHANGELOG.md) follows
+[Keep a Changelog](https://keepachangelog.com/en/1.1.0/). It describes notable
+changes for visitors and maintainers—not each commit or every formatting fix.
+
+For each PR, review the changelog and do one of the following:
+
+- Add a short entry under **Unreleased** for a notable change, grouped as
+  **Added**, **Changed**, **Deprecated**, **Removed**, **Fixed**, or **Security**.
+  Use only relevant headings; write what changed and why it matters.
+- In the PR description, mark **Changelog: N/A** and explain why the change
+  does not warrant an entry.
+
+Keep newer changes at the top of the applicable section, avoid duplicating
+entries for the same change, and consider existing entries when resolving merge
+conflicts. Do not dump git history into the changelog or record secrets.
+
+This site does not currently use numbered releases. Keep changes in
+**Unreleased** until the owner explicitly chooses a release or publication
+milestone. If a milestone is designated, move the applicable entries to a dated
+section using ISO `YYYY-MM-DD`; do not invent tags or assert Semantic
+Versioning. Changelog review is part of the Definition of Done.
