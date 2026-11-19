@@ -2,9 +2,9 @@
 
 - Repository: `jasonhorner/jasonhorner-com`. The PR target branch is `master`.
 - This is a Jekyll site using the Minimal Mistakes `remote_theme` and the
-  `github-pages` gem. Read relevant repository files and the linked issue
-  before proposing or implementing a change; do not invent paths, validation
-  results, or site behavior.
+  `github-pages` gem. Before editing, inspect the relevant repository files,
+  existing project conventions, and linked issue; do not invent paths,
+  validation results, or site behavior.
 - Follow an issue-first workflow. Use feature branches named
   `feature/JJH-<issue-number>-<short-description>` when an issue number
   exists, target pull requests at `master`, and link the originating issue.

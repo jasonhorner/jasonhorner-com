@@ -26,8 +26,10 @@ configuration, and publishing changes.
 
 ## Build and CI validation
 
-The site dependencies are declared in the existing `Gemfile`. With Ruby and
-Bundler installed, run:
+The site dependencies are declared in the existing `Gemfile`. This repository
+does not commit a `Gemfile.lock`, so `bundle install` resolves the declared
+dependencies and may create an ignored local lock file. With a compatible Ruby
+and Bundler installed, run:
 
 ```sh
 bundle install
@@ -37,6 +39,8 @@ bundle exec jekyll build
 Jekyll writes the generated site to `_site/`. For local preview, run
 `bundle exec jekyll serve` and open the local address printed by Jekyll.
 
-The **Jekyll CI** check runs `bundle exec jekyll build` for pull requests.
-Wait for it to pass and review its logs if it fails; a successful build check
-does not deploy or publish the site.
+The **Jekyll CI** check runs `bundle exec jekyll build` for pull requests
+targeting `master` and can also be started manually. Wait for the check to
+pass and review its logs if it fails; dependency installation or build errors
+fail the check. Report local checks you could not run as limitations. CI does
+not deploy or publish the site.

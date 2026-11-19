@@ -1,19 +1,23 @@
 ## Summary
 
-<!-- Describe the problem and the intended outcome. -->
+<!-- What changed and why? -->
 
 ## Related Issue
 
-<!-- Link the related issue, for example: Related to #123. -->
+<!-- Issue number/link and relationship (Related to or Closes). Only use Closes when this PR fully resolves the issue; do not close broader ongoing issues. -->
 
 ## Changes
 
-<!-- Summarize the changes in this pull request. -->
+<!-- List key files and implementation details. -->
 
 ## Validation
 
-<!-- List checks performed and any limitations or untested behavior. -->
+- [ ] Jekyll CI result: <!-- pass/fail/not run -->
+- [ ] Local tests/build: <!-- commands and results, or N/A -->
+- [ ] Relevant accessibility review: <!-- findings or N/A -->
+- [ ] Existing URLs and SEO metadata preserved, or approved changes explained.
+- [ ] Unavailable or untested checks and limitations are listed; mark nonapplicable checks N/A rather than claiming they passed.
 
 ## AI Assistance
 
-<!-- State whether AI tools were used and how. -->
+<!-- State whether/how AI was used. Confirm the diff was human-reviewed and note remaining limitations or risks. -->
