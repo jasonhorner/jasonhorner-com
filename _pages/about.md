@@ -1,29 +1,38 @@
 ---
 permalink: /about/
 title: "About"
-classes: wide
+description: "Meet Jason Horner, an independent data platform consultant, trainer, and speaker specializing in SQL Server, Microsoft Fabric, Azure, data engineering, analytics, and AI."
+classes:
+  - wide
+  - about-page
 ---
-Jason Horner
----------------
-### Global Thought Leader and International Man of Leisure
 
-![Jason Horner](https://www.gravatar.com/avatar/9d3a57f5aa229964e0c046853e556823 "Jason Horner"){: .align-right}
-Hi, my name is Jason I'm a Independent consultant and trainer focused on the Azure Data Platform. I spend most of my day helping clients solve business problems mostly in the Data and Advanced Analytics spaces. Sometimes this involves various and sundry cloud technologies including Azure Data Factory, Azure Synapse Analytics, Azure Data Lake Store, Azure Databricks, HDInsight and Azure SQL Database. I'm fluent in several languages including: SQL, C#, Python, and PowerShell.
+## Jason Horner
 
-I'm a Microsoft Certified Master of SQL Server (MCM) and have been recognized for my technical excellence and evangelism efforts by Microsoft by being previously awarded the Most Valuable Professional (MVP) for the 6 years.
+*Data Platform Consultant, Trainer, and Speaker*
 
-In my off hours I like to snowboard, karaoke, ride roller coasters and play arcade games
-![radical!](../assets/images/melon.png "Radical")
+<img src="/assets/images/jason-portrait.jpg" class="about-page__portrait" alt="Portrait of Jason Horner" width="480" height="720" decoding="async">
 
-### I Can Talk Nerdy For You
-I love to speak about a variety of topics 
-[sessionize - jason horner](https://sessionize.com/jason-horner/)
+Hi, I'm Jason! I'm an independent consultant, trainer, and speaker, and the founder of [Empty Cup Consulting](https://emptycupconsulting.com/).
 
-<script type="text/javascript" src="https://sessionize.com/api/speaker/sessions/8cfab663-b768-4828-9ff5-89f8ecf47a09/0x0x3fb393x"></script>
+I help organizations solve real business problems with data and technology. My work spans SQL Server, Microsoft Fabric, Azure, modern data engineering, analytics architecture, and AI.
 
+Sometimes that means designing a modern data platform. Other times, it's untangling a troublesome data pipeline, improving data quality, or helping a team decide what to build next. I enjoy the complicated problems, especially when solving them makes life easier for the people who have to operate the solution.
 
+I've been doing this long enough to have collected a few letters after my name. I'm a **Microsoft Certified Master (MCM) in SQL Server**, hold the **Microsoft Fabric Analytics Engineer Associate (DP-600)** and **Fabric Data Engineer Associate (DP-700)** certifications, and am a former six-year **Microsoft Most Valuable Professional (MVP)**.
 
-### Papa Needs Brand New Shoes
-Always looking for new meaningful and interesting work: 
-[me@jasonhorner.com](mailto:me@jasonhorner.com)
-[Consulting](/consulting/ "Learn about working together")
+When I'm not working, you'll probably find me snowboarding, singing karaoke, riding roller coasters, or playing arcade games. Sometimes all four, though usually not at the same time.
+
+![Radical!](/assets/images/melon.png "Radical")
+
+## I Can Talk Nerdy For You
+
+I enjoy speaking at conferences, user groups, and community events about data engineering, architecture, analytics, and the technologies that make it all work.
+
+Interested in having me speak at your event? [See my Speaking page](/speaking/).
+
+## Papa Needs Brand New Shoes
+
+I'm always interested in meaningful, challenging work—and occasionally something that sounds a little crazy.
+
+[Learn more about consulting](/consulting/).
