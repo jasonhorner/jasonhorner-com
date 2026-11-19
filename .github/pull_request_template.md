@@ -41,3 +41,8 @@
 - Next action requested: <!-- Review / fix / verify / approve merge -->
 
 <!-- Do not merge, deploy, or change publication settings without explicit owner approval. -->
+
+## Changelog
+
+- [ ] Updated `CHANGELOG.md` under **Unreleased** with a notable change (category and short entry), **or** marked N/A below.
+- Changelog: <!-- Updated: category / N/A: why the change is not notable -->
