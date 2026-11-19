@@ -48,3 +48,18 @@ body:
     attributes:
       label: "Suggested validation and constraints"
       description: "Mention tests, accessibility, SEO, URLs, dependencies, or uncertainties worth checking."
+
+  - type: dropdown
+    id: authorization
+    attributes:
+      label: "Implementation authorization"
+      description: "Optional workflow status. Issue creation alone does not authorize coding; only the owner can approve implementation."
+      options:
+        - "Proposed — awaiting owner scope review"
+        - "Approved for implementation by owner"
+        - "Investigation only — no implementation"
+  - type: textarea
+    id: handoff
+    attributes:
+      label: "Next action owner / handoff"
+      description: "Optional: identify the person or agent expected to investigate or review."
