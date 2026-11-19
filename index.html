@@ -1,7 +1,44 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: home
+layout: single
+title: "Hi, I'm Jason."
+description: "Meet Jason Horner, independent data platform consultant, trainer, and speaker. Explore consulting, speaking, technical writing, and open-source work."
 author_profile: true
+classes:
+  - wide
+  - personal-home
 ---
+
+<div class="personal-home__content">
+  <header class="personal-home__intro">
+    <p class="personal-home__lead">I'm Jason Horner, an independent consultant, trainer, and speaker. I help teams solve tricky problems with SQL Server, Microsoft Fabric, Azure, data engineering, analytics, and AI.</p>
+    <p>Sometimes that means designing a data platform. Sometimes it's untangling a pipeline that's been making everyone's life miserable. Either way, I like practical solutions, clear explanations, and leaving things better than I found them.</p>
+  </header>
+
+  <section aria-labelledby="personal-home-explore">
+    <h2 id="personal-home-explore">What brings you here?</h2>
+    <div class="personal-home__grid">
+      <article class="personal-home__card">
+        <h3>About me</h3>
+        <p>A bit about my background, technical experience, and what I do when I'm not staring at a query plan.</p>
+        <a href="{{ '/about/' | relative_url }}">Get to know me <span aria-hidden="true">&rarr;</span></a>
+      </article>
+      <article class="personal-home__card">
+        <h3>Consulting</h3>
+        <p>Need a plan, a second set of eyes, help building something, or training for your team?</p>
+        <a href="{{ '/consulting/' | relative_url }}">Explore consulting <span aria-hidden="true">&rarr;</span></a>
+      </article>
+      <article class="personal-home__card">
+        <h3>Speaking</h3>
+        <p>I enjoy sharing the lessons learned from real-world data and analytics projects.</p>
+        <a href="{{ '/speaking/' | relative_url }}">Speaking and sessions <span aria-hidden="true">&rarr;</span></a>
+      </article>
+      <article class="personal-home__card">
+        <h3>Technical blog</h3>
+        <p>Practical tutorials, code samples, and notes from the field live on my dedicated blog.</p>
+        <a href="https://blog.jasonhorner.com/">Read the technical blog <span aria-hidden="true">&rarr;</span></a>
+      </article>
+    </div>
+  </section>
+
+  <p class="personal-home__github">Prefer code to introductions? You can also find me on <a href="https://github.com/jasonhorner">GitHub</a>.</p>
+</div>
