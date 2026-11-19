@@ -2,7 +2,9 @@
 title: "Consulting"
 permalink: /consulting/
 description: "Practical consulting, coaching, and training for data platform and analytics challenges."
-classes: wide consulting-landing
+classes:
+  - wide
+  - consulting-landing
 ---
 <div class="consulting-page">
   <header class="consulting-page__intro">
