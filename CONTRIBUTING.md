@@ -8,8 +8,11 @@ an agreed outcome.
 
 ## Branches and pull requests
 
-- Work on a feature branch, not directly on `master`. When an issue number
-  exists, use `feature/JJH-<issue-number>-<short-description>`.
+- Work on a feature branch, not directly on `master`. Ordinary contributor
+  branches should use `feature/JJH-<issue-number>-<short-description>` when an
+  issue number exists. A managed Copilot workspace may require the enforced
+  `copilot/feature/JJH-<issue-number>-<short-description>` prefix; keep the
+  issue-number convention and do not bypass that prefix.
 - Open pull requests against `master` and link the originating issue.
 - Keep each change scoped and reviewable. Explain what changed, the validation
   performed, and any limitations.

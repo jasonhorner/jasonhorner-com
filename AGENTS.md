@@ -5,9 +5,12 @@
   `github-pages` gem. Before editing, inspect the relevant repository files,
   existing project conventions, and linked issue; do not invent paths,
   validation results, or site behavior.
-- Follow an issue-first workflow. Use feature branches named
-  `feature/JJH-<issue-number>-<short-description>` when an issue number
-  exists, target pull requests at `master`, and link the originating issue.
+- Follow an issue-first workflow. Ordinary contributor branches should use
+  `feature/JJH-<issue-number>-<short-description>` when an issue number exists.
+  A managed Copilot workspace may require the enforced
+  `copilot/feature/JJH-<issue-number>-<short-description>` prefix; keep the
+  issue-number convention and do not bypass that prefix. Target pull requests
+  at `master` and link the originating issue.
   Keep changes scoped and reviewable.
 - Preserve the existing architecture, public URLs, custom domain, and GitHub
   Pages-compatible dependencies unless an issue explicitly approves changing

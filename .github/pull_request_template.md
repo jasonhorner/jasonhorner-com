@@ -20,4 +20,6 @@
 
 ## AI Assistance
 
-<!-- State whether/how AI was used. Confirm the diff was human-reviewed and note remaining limitations or risks. -->
+- [ ] Human-reviewed the diff (or N/A if not applicable).
+- AI used: <!-- Yes/no; summarize use or N/A. -->
+- Untested behavior or risks: <!-- List them or N/A. -->
