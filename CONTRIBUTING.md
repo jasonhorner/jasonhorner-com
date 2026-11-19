@@ -80,3 +80,39 @@ the owner's connected account, include a short attribution such as:
 owner's authorized GitHub connection." This clarifies authorship without
 pretending the GitHub account is a separate reviewer. The owner retains
 approval authority for merging and deployment.
+
+## Definition of Done and closing issues
+
+Before recommending a merge:
+
+1. The implementation addresses the issue's approved acceptance criteria or
+   explicitly identifies what remains incomplete.
+2. CI has passed for the latest relevant PR commit; failed, blocked, or
+   unexecuted checks are reported accurately.
+3. Content claims and external destinations are verified where applicable.
+   Visual changes receive a browser review, or that limitation is disclosed.
+4. Open review findings have been addressed or explicitly accepted by the owner.
+5. The PR includes evidence, AI-assistance attribution, remaining risks, and
+   the next action owner.
+6. A human has reviewed the diff and the repository owner has explicitly
+   approved merging. Deployment or publishing changes also require approval.
+
+Use `Closes #N` (or `Fixes #N`) in a PR description only when merging to
+`master` fully resolves that issue. GitHub uses closing keywords to close
+the issue automatically on merge. Use `Related to #N` for partial changes,
+ongoing audits, or work with outstanding acceptance criteria.
+
+After merging, confirm the linked issue was closed if fully completed. If it
+remains open unexpectedly, reconcile it with evidence of completion. Do not
+close larger issues simply because one related PR merged. If work is partial,
+record the next step, owner, and any follow-up issue rather than claiming done.
+
+## Work authorization and roles
+
+Issue templates include an optional authorization field: a proposed issue
+does **not** itself authorize an agent to implement it. Approval should be
+explicit from the owner; record it in the issue or working handoff.
+
+The owner controls scope and merges. Implementers make scoped changes and fix
+review feedback in the existing PR. Independent reviewers provide findings.
+GitHub Actions provides build evidence, not acceptance or deployment approval.

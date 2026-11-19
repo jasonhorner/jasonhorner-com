@@ -2,30 +2,42 @@
 
 <!-- What changed and why? -->
 
-## Related Issue
+## Related Issue and Resolution
 
-<!-- Issue number/link and relationship (Related to or Closes). Only use Closes when this PR fully resolves the issue; do not close broader ongoing issues. -->
+- Originating issue: <!-- #N -->
+- Resolution intent (select one):
+  - [ ] **Fully resolves** the issue — use `Closes #N` in this description when accurate.
+  - [ ] **Partial / related work** — use `Related to #N` and keep the issue open.
+- Outstanding acceptance criteria: <!-- N/A, or list what remains -->
+
+<!-- Important: GitHub only automatically closes a linked issue when closing syntax is present in the PR description and the PR merges to the default branch. Do not close umbrella issues prematurely. -->
 
 ## Changes
 
-<!-- List key files and implementation details. -->
+<!-- Files changed, behavior and any intentional URL/SEO/deployment differences. -->
 
 ## Validation
 
-- [ ] Jekyll CI result: <!-- pass/fail/not run -->
-- [ ] Local tests/build: <!-- commands and results, or N/A -->
-- [ ] Relevant accessibility review: <!-- findings or N/A -->
-- [ ] Existing URLs and SEO metadata preserved, or approved changes explained.
-- [ ] Unavailable or untested checks and limitations are listed; mark nonapplicable checks N/A rather than claiming they passed.
+<!-- Record actual results for the latest relevant commit: Passed / Failed / Blocked / Not run / N/A. Checking a box is not evidence of success. -->
+| Check | Result | Evidence / limitation |
+| --- | --- | --- |
+| Jekyll CI | Not run | Link to latest run when available |
+| Local build/tests | Not run | Commands, output or reason unavailable |
+| Links / content claims | N/A | Relevant verified destinations or limitation |
+| Accessibility / visual review | Not run | Viewports, keyboard checks, screenshots or limitation |
+| URL, navigation and SEO review | N/A | Explain intentional differences |
 
-## AI Assistance
+## Review and AI Assistance
 
-- [ ] Human-reviewed the diff (or N/A if not applicable).
-- AI used: <!-- Yes/no; summarize use or N/A. -->
-- Untested behavior or risks: <!-- List them or N/A. -->
+- Human diff review: <!-- Pending / Completed (by whom); an agent cannot self-approve on behalf of the owner -->
+- AI used: <!-- Yes/No; which tools, what they did -->
+- Remaining review findings / untested risks: <!-- N/A or explain -->
 
 ## Status and Handoff
 
-- Current status: <!-- Ready for review / changes requested / blocked / other -->
-- Remaining blockers or decisions: <!-- List issues, or N/A -->
-- Next action owner: <!-- Person or agent expected to act next -->
+- Current status: <!-- In progress / Blocked / Ready for review -->
+- Blockers or remaining decisions: <!-- N/A or list -->
+- Next action owner: <!-- Person or agent -->
+- Next action requested: <!-- Review / fix / verify / approve merge -->
+
+<!-- Do not merge, deploy, or change publication settings without explicit owner approval. -->

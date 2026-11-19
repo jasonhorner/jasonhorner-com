@@ -1,27 +1,49 @@
-# Minimal Mistakes remote theme starter
+# JasonHorner.com
 
-Click [**Use this template**](https://github.com/mmistakes/mm-github-pages-starter/generate) button above for the quickest method of getting started with the [Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes).
+Source for [jasonhorner.com](https://jasonhorner.com/), Jason Horner's personal website for professional background, speaking, personal interests, and links to related work.
 
-Contains basic configuration to get you a site with:
+Consulting offerings and business inquiries belong on [Empty Cup Consulting](https://emptycupconsulting.com/). Technical articles are published separately at [blog.jasonhorner.com](https://blog.jasonhorner.com/).
 
-- Sample posts.
-- Sample top navigation.
-- Sample author sidebar with social links.
-- Sample footer links.
-- Paginated home page.
-- Archive pages for posts grouped by year, category, and tag.
-- Sample about page.
-- Sample 404 page.
-- Site wide search.
+## Technology
 
-Replace sample content with your own and [configure as necessary](https://mmistakes.github.io/minimal-mistakes/docs/configuration/).
+- Jekyll, hosted on GitHub Pages
+- [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes) as a `remote_theme`
+- Ruby dependencies defined by `Gemfile` using the `github-pages` gem
+- Default branch and pull request target: `master`
+- Custom domain maintained through `CNAME`
 
----
+## Repository layout
 
-## Troubleshooting
+| Path | Purpose |
+| --- | --- |
+| `_pages/` | Pages and Jekyll front matter |
+| `_data/navigation.yml` | Main navigation |
+| `_config.yml` | Jekyll configuration and site metadata |
+| `assets/` | Site styles and media |
+| `.github/workflows/jekyll-ci.yml` | Pull-request Jekyll build check |
+| `.github/ISSUE_TEMPLATE/` | Issue reporting and planning forms |
+| `.github/pull_request_template.md` | Pull request checklist |
 
-If you have a question about using Jekyll, start a discussion on the [Jekyll Forum](https://talk.jekyllrb.com/) or [StackOverflow](https://stackoverflow.com/questions/tagged/jekyll). Other resources:
+Some pages and paths may change as approved content issues are implemented; inspect the current files before modifying them.
 
-- [Ruby 101](https://jekyllrb.com/docs/ruby-101/)
-- [Setting up a Jekyll site with GitHub Pages](https://jekyllrb.com/docs/github-pages/)
-- [Configuring GitHub Metadata](https://github.com/jekyll/github-metadata/blob/master/docs/configuration.md#configuration) to work properly when developing locally and avoid `No GitHub API authentication could be found. Some fields may be missing or have incorrect data.` warnings.
+## Local development
+
+Use a compatible Ruby installation and Bundler. The current CI workflow uses Ruby 3.1; newer local Ruby versions may not work with this site's existing dependencies.
+
+```sh
+bundle install
+bundle exec jekyll build
+bundle exec jekyll serve
+```
+
+The build outputs to `_site/`; `jekyll serve` prints a local preview address. The repository currently does not commit a `Gemfile.lock`, so dependency resolution may vary across environments.
+
+GitHub Actions runs the Jekyll build for pull requests targeting `master`. A passing build does not verify page appearance, external links, or accessibility.
+
+## Contributing and AI-assisted development
+
+Start with a [GitHub issue](https://github.com/jasonhorner/jasonhorner-com/issues/new/choose) that defines the problem, scope, and acceptance criteria. Read [CONTRIBUTING.md](CONTRIBUTING.md) for the contributor workflow and definition of done. Coding agents should also follow [AGENTS.md](AGENTS.md).
+
+Submit proposed changes in a feature branch and PR targeting `master`. Record validation results, review findings, AI assistance, and outstanding work. Merge, publishing, and repository setting changes require explicit owner approval.
+
+The authoritative instructions are in those two files; this README is a repository overview, not a replacement for them.

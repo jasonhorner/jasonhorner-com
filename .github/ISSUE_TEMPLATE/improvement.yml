@@ -57,3 +57,13 @@ body:
       label: "Handoff / next action owner"
       description: "Who should review the scope or take the next step? State when implementation is authorized."
       placeholder: "Next: repository owner reviews scope before implementation."
+
+  - type: dropdown
+    id: authorization
+    attributes:
+      label: "Implementation authorization"
+      description: "Optional workflow status. Issue creation alone does not authorize coding; only the owner can approve implementation."
+      options:
+        - "Proposed — awaiting owner scope review"
+        - "Approved for implementation by owner"
+        - "Investigation only — no implementation"

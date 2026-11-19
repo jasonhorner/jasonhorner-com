@@ -48,3 +48,18 @@ body:
     attributes:
       label: "Review and handoff"
       description: "Identify the content reviewer, any open decisions, and next action owner."
+
+  - type: dropdown
+    id: authorization
+    attributes:
+      label: "Implementation authorization"
+      description: "Optional workflow status. Issue creation alone does not authorize coding; only the owner can approve implementation."
+      options:
+        - "Proposed — awaiting owner scope review"
+        - "Approved for implementation by owner"
+        - "Investigation only — no implementation"
+  - type: textarea
+    id: next_owner
+    attributes:
+      label: "Next action owner"
+      description: "Optional: who should approve the proposed scope or take the next step?"
