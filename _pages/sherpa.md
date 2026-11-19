@@ -14,7 +14,7 @@ Sherpa services are offered on a best effort basis with a 24hr response time.
 The money is non-refundable, but satisfaction is guaranteed. {: .notice}
 
 
-### Get Started
+## Get Started
 
 Find out if the [Sherpa Session Introduction Call](https://calendly.com/jjhconsulting/presales-call "Presales Intro Call") is right for your problem
 
