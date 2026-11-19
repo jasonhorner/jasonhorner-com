@@ -1,6 +1,6 @@
 # GitHub Copilot repository instructions
 
-This repository is the personal website at https://jasonhorner.com/, built with Jekyll, GitHub Pages, and the Minimal Mistakes remote theme. The default branch and PR target are `master`.
+This repository is the personal website at https://jasonhorner.com/, built with Jekyll, GitHub Pages, and the Minimal Mistakes remote theme. The default branch and PR target are `main`.
 
 ## Source of truth
 

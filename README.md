@@ -9,7 +9,7 @@ Consulting offerings and business inquiries belong on [Empty Cup Consulting](htt
 - Jekyll, hosted on GitHub Pages
 - [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes) as a `remote_theme`
 - Ruby dependencies defined by `Gemfile` using the `github-pages` gem
-- Default branch and pull request target: `master`
+- Default branch and pull request target: `main`
 - Custom domain maintained through `CNAME`
 
 ## Repository layout
@@ -38,7 +38,7 @@ bundle exec jekyll serve
 
 The build outputs to `_site/`; `jekyll serve` prints a local preview address. The repository currently does not commit a `Gemfile.lock`, so dependency resolution may vary across environments.
 
-GitHub Actions runs the Jekyll build for pull requests targeting `master`. A passing build does not verify page appearance, external links, or accessibility.
+GitHub Actions runs the Jekyll build for pull requests targeting `main`. A passing build does not verify page appearance, external links, or accessibility.
 
 For notable changes to the website and development workflow, see the [changelog](CHANGELOG.md).
 
@@ -46,6 +46,6 @@ For notable changes to the website and development workflow, see the [changelog]
 
 Start with a [GitHub issue](https://github.com/jasonhorner/jasonhorner-com/issues/new/choose) that defines the problem, scope, and acceptance criteria. Read [CONTRIBUTING.md](CONTRIBUTING.md) for the contributor workflow and definition of done. Coding agents should also follow [AGENTS.md](AGENTS.md).
 
-Submit proposed changes in a feature branch and PR targeting `master`. Record validation results, review findings, AI assistance, and outstanding work. Merge, publishing, and repository setting changes require explicit owner approval.
+Submit proposed changes in a feature branch and PR targeting `main`. Record validation results, review findings, AI assistance, and outstanding work. Merge, publishing, and repository setting changes require explicit owner approval.
 
 The authoritative instructions are in those two files; this README is a repository overview, not a replacement for them.
