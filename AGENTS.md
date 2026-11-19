@@ -71,3 +71,18 @@ was closed appropriately; do not automatically close unfinished work.
 Prefer one primary Teams working thread per issue; use GitHub Issues and PRs
 for durable scope, decisions, review findings, and build evidence. Do not infer
 an agent's identity from the GitHub account used to submit a comment.
+
+## Changelog requirements
+
+- For **every implementation PR**, inspect the root `CHANGELOG.md`.
+- Add a brief human-readable entry under `## [Unreleased]` for each **notable**
+  site change, grouped into the appropriate Keep a Changelog category (Added,
+  Changed, Deprecated, Removed, Fixed, Security). Explain impact, not commits.
+- If the PR makes no notable change (for example a typo-only or internal
+  housekeeping edit), do not create noise; instead state **Changelog: N/A**
+  with a short reason in the PR description.
+- Do not invent past releases, change dates, or version numbers. Leave entries
+  under Unreleased unless the owner explicitly designates a release/milestone.
+  Link issues or PRs when they improve traceability.
+- Confirm changelog status in the PR checklist and update it if the scope
+  changes during review. Never substitute a generated git log for an entry.
