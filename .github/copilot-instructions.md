@@ -22,3 +22,7 @@ This repository is the personal website at https://jasonhorner.com/, built with 
 Do not autonomously merge, deploy, publish, change repository settings, or close unfinished issues. Explicit owner approval is required.
 
 End handoffs with: **Completed**, **Validation**, **Blockers**, and **Next action owner**. Disclose when comments or reviews are AI-prepared through the owner's GitHub connection, and never include private Teams conversations, client data, or secrets in public GitHub artifacts.
+
+## Changelog
+
+Before completing each PR, follow the root `AGENTS.md` and `CONTRIBUTING.md` changelog rules: record notable changes in `CHANGELOG.md` under **Unreleased**, or explain **Changelog: N/A** in the PR description. Do not invent releases or generate changelogs from commit logs.
