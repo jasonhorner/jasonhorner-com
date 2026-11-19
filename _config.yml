@@ -63,7 +63,7 @@ plugins:
 
 author:
   name   : "Jason Horner"
-  avatar : "/assets/images/jason-portrait.jpg"
+  avatar : "/assets/images/jason-avatar-square.png"
   bio    : "Global Thought Leader and International Man of Leisure"
   links:
     - label: "Website"

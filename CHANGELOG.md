@@ -7,6 +7,10 @@ This website does not currently publish numbered releases or follow a declared S
 
 ## [Unreleased]
 
+### Fixed
+
+- Corrected the homepage's oval author photo by using the owner's approved square avatar (#21).
+
 ### Changed
 
 - Replaced the empty Recent Posts homepage with a personal landing page linking to About, Consulting, Speaking, and the technical blog (#22).
