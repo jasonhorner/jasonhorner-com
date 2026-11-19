@@ -7,7 +7,7 @@ We offer a variety of both on-demand and live delivery trainings that can be tai
 
 Our training is focused on real world and best practices and covers topics with an unparalleled level of breadth and depth. With plenty of hands on opportunities to gain experience and confidence.
 
-### Sample Topics
+## Sample Topics
 - Azure Data Factory
 - Azure Databricks
 - Azure Synapse Analytics
@@ -15,7 +15,7 @@ Our training is focused on real world and best practices and covers topics with 
 - Modern Data architecture
 - Cosmos DB
 - DevOps
-### Get Started
+## Get Started
 
 Find out if the [Training Offerings](https://calendly.com/jjhconsulting/presales-call "Training Offerings Introductory Call")  are right for you
 
