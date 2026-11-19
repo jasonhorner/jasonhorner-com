@@ -35,3 +35,39 @@
   results**, **blockers**, and **next action owner**, including links to the
   issue, PR, and CI run where available.
 - Never treat passing CI or a review comment as permission to merge or deploy.
+
+## Development lifecycle and issue resolution
+
+1. **Proposed:** Read the linked issue, its acceptance criteria, and current files.
+   Issue creation or assignment alone does not authorize implementation; follow
+   the owner's explicit approval and any authorization recorded in the issue.
+2. **In progress:** Implement only approved scope in the issue branch. Keep one
+   implementation PR per task, update that PR when reviewers request changes,
+   and reply to the review threads with the fix and evidence.
+3. **Validation:** Report the actual CI result on the latest PR commit and
+   distinguish Passed, Failed, Blocked, and Not run. A successful Jekyll build
+   does not establish correct links, visual appearance, or accessibility.
+4. **Ready for review:** Confirm intended acceptance criteria, review feedback,
+   and remaining blockers. Request human review rather than self-approving.
+5. **Owner decision:** Only the owner may authorize merge, deployment, or
+   publication. An agent must never interpret a green check as permission.
+6. **After merge:** Reconcile the linked issue. A merged PR is not proof that
+   every acceptance criterion was met. Note open follow-up work and its owner.
+
+Use `Closes #N` or `Fixes #N` in the PR description **only** when the merged
+PR fully satisfies issue N; GitHub can then close the issue on merge to
+`master`. Use `Related to #N` when the PR makes partial progress or the issue
+is an ongoing audit or umbrella. After merge, verify whether each linked issue
+was closed appropriately; do not automatically close unfinished work.
+
+### Review responsibilities
+
+- **Owner:** sets scope, resolves product decisions, approves merge/deployment.
+- **Implementer (human or agent):** edits files, records tests, fixes findings.
+- **Reviewers (human, ChatGPT, or Copilot):** provide findings and evidence; a
+  review alone does not grant merge authority.
+- **GitHub Actions:** supplies build results, not content or visual acceptance.
+
+Prefer one primary Teams working thread per issue; use GitHub Issues and PRs
+for durable scope, decisions, review findings, and build evidence. Do not infer
+an agent's identity from the GitHub account used to submit a comment.
