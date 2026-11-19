@@ -9,6 +9,8 @@ This website does not currently publish numbered releases or follow a declared S
 
 ### Changed
 
+- Replaced the empty Recent Posts homepage with a personal landing page linking to About, Consulting, Speaking, and the technical blog (#22).
+
 - Updated the homepage author portrait and refreshed X branding in the social links (#19).
 
 - Aligned the default branch, pull-request CI trigger, and contributor/agent instructions with the rename from `master` to `main` (#17).
