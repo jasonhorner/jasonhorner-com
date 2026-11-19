@@ -118,3 +118,73 @@ search: false
     margin: 0 auto 1.5rem;
   }
 }
+
+// Personal homepage: reuse Minimal Mistakes' single-page layout and author
+// sidebar; only the landing content needs its own responsive card styles.
+.personal-home__content {
+  & .personal-home__intro {
+    max-width: 56rem;
+    margin-bottom: 2.5rem;
+  }
+
+  & .personal-home__lead {
+    font-size: 1.15em;
+    line-height: 1.6;
+  }
+
+  & .personal-home__grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.25rem;
+    margin-top: 1.25rem;
+  }
+
+  & .personal-home__card {
+    display: flex;
+    min-width: 0;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1.5rem;
+    border: 1px solid $border-color;
+    border-radius: 0.4rem;
+    background: $background-color;
+  }
+
+  & .personal-home__card h3 {
+    margin-top: 0;
+  }
+
+  & .personal-home__card p {
+    flex: 1;
+  }
+
+  & .personal-home__card a {
+    display: inline-flex;
+    min-height: 2.75rem;
+    align-items: center;
+    gap: 0.4rem;
+    font-weight: 700;
+    text-underline-offset: 0.15em;
+  }
+
+  & .personal-home__card a:focus-visible,
+  & .personal-home__github a:focus-visible {
+    border-radius: 0.15rem;
+    outline: 3px solid $text-color;
+    outline-offset: 3px;
+  }
+
+  & .personal-home__github {
+    margin-top: 2rem;
+  }
+
+  @media (max-width: 40em) {
+    & .personal-home__grid {
+      grid-template-columns: 1fr;
+    }
+
+    & .personal-home__card {
+      padding: 1.25rem;
+    }
+  }
+}
