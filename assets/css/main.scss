@@ -102,7 +102,8 @@ search: false
 // stacks above the text on narrow screens. Limit styling to this page only.
 .about-page .about-page__portrait {
   float: right;
-  width: min(15rem, 38%);
+  width: 15rem;
+  max-width: 38%;
   height: auto;
   margin: 0 0 1.25rem 1.5rem;
   border-radius: 0.35rem;
@@ -112,7 +113,8 @@ search: false
   .about-page .about-page__portrait {
     float: none;
     display: block;
-    width: min(15rem, 100%);
+    width: 15rem;
+    max-width: 100%;
     margin: 0 auto 1.5rem;
   }
 }
