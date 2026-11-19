@@ -8,12 +8,12 @@ an agreed outcome.
 
 ## Branches and pull requests
 
-- Work on a feature branch, not directly on `master`. Ordinary contributor
+- Work on a feature branch, not directly on `main`. Ordinary contributor
   branches should use `feature/JJH-<issue-number>-<short-description>` when an
   issue number exists. A managed Copilot workspace may require the enforced
   `copilot/feature/JJH-<issue-number>-<short-description>` prefix; keep the
   issue-number convention and do not bypass that prefix.
-- Open pull requests against `master` and link the originating issue.
+- Open pull requests against `main` and link the originating issue.
 - Keep each change scoped and reviewable. Explain what changed, the validation
   performed, and any limitations.
 - Review the diff and ensure applicable checks pass before proposing a merge.
@@ -43,7 +43,7 @@ Jekyll writes the generated site to `_site/`. For local preview, run
 `bundle exec jekyll serve` and open the local address printed by Jekyll.
 
 The **Jekyll CI** check runs `bundle exec jekyll build` for pull requests
-targeting `master` and can also be started manually. Wait for the check to
+targeting `main` and can also be started manually. Wait for the check to
 pass and review its logs if it fails; dependency installation or build errors
 fail the check. Report local checks you could not run as limitations. CI does
 not deploy or publish the site.
@@ -98,7 +98,7 @@ Before recommending a merge:
    approved merging. Deployment or publishing changes also require approval.
 
 Use `Closes #N` (or `Fixes #N`) in a PR description only when merging to
-`master` fully resolves that issue. GitHub uses closing keywords to close
+`main` fully resolves that issue. GitHub uses closing keywords to close
 the issue automatically on merge. Use `Related to #N` for partial changes,
 ongoing audits, or work with outstanding acceptance criteria.
 
