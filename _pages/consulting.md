@@ -24,7 +24,7 @@ classes: wide
         </svg>
         <h3>I need a plan.</h3>
         <p>Assess your data platform, clarify priorities, and turn uncertainty into an actionable roadmap.</p>
-        <a class="consulting-page__link" href="https://emptycupconsulting.com/" aria-label="Assessments &amp; Strategy at Empty Cup Consulting">Assessments &amp; Strategy <span aria-hidden="true">&rarr;</span></a>
+        <a class="consulting-page__link" href="https://emptycupconsulting.com/services/" aria-label="Assessments &amp; Strategy at Empty Cup Consulting">Assessments &amp; Strategy <span aria-hidden="true">&rarr;</span></a>
       </article>
 
       <article class="consulting-page__card">
@@ -33,7 +33,7 @@ classes: wide
         </svg>
         <h3>I'm stuck on a problem.</h3>
         <p>Get practical coaching and technical guidance when your team needs another experienced perspective.</p>
-        <a class="consulting-page__link" href="https://emptycupconsulting.com/" aria-label="Sherpa Services at Empty Cup Consulting">Sherpa Services <span aria-hidden="true">&rarr;</span></a>
+        <a class="consulting-page__link" href="https://emptycupconsulting.com/sherpa/" aria-label="Sherpa Services at Empty Cup Consulting">Sherpa Services <span aria-hidden="true">&rarr;</span></a>
       </article>
 
       <article class="consulting-page__card">
@@ -45,7 +45,7 @@ classes: wide
         </svg>
         <h3>We're building something.</h3>
         <p>Get architecture guidance and implementation support for modern data platforms, analytics, and AI.</p>
-        <a class="consulting-page__link" href="https://emptycupconsulting.com/" aria-label="Architecture &amp; Implementation at Empty Cup Consulting">Architecture &amp; Implementation <span aria-hidden="true">&rarr;</span></a>
+        <a class="consulting-page__link" href="https://emptycupconsulting.com/services/" aria-label="Architecture &amp; Implementation at Empty Cup Consulting">Architecture &amp; Implementation <span aria-hidden="true">&rarr;</span></a>
       </article>
 
       <article class="consulting-page__card">
@@ -55,7 +55,7 @@ classes: wide
         </svg>
         <h3>My team needs to level up.</h3>
         <p>Build practical skills through technical training, hands-on learning, and mentoring.</p>
-        <a class="consulting-page__link" href="https://emptycupconsulting.com/" aria-label="Training &amp; Enablement at Empty Cup Consulting">Training &amp; Enablement <span aria-hidden="true">&rarr;</span></a>
+        <a class="consulting-page__link" href="https://emptycupconsulting.com/training/" aria-label="Training &amp; Enablement at Empty Cup Consulting">Training &amp; Enablement <span aria-hidden="true">&rarr;</span></a>
       </article>
     </div>
   </section>
