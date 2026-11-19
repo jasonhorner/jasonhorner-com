@@ -97,3 +97,24 @@ search: false
     }
   }
 }
+
+// The About-page portrait sits beside the introduction on wide screens and
+// stacks above the text on narrow screens. Limit styling to this page only.
+.about-page .about-page__portrait {
+  float: right;
+  width: 15rem;
+  max-width: 38%;
+  height: auto;
+  margin: 0 0 1.25rem 1.5rem;
+  border-radius: 0.35rem;
+}
+
+@media (max-width: 40em) {
+  .about-page .about-page__portrait {
+    float: none;
+    display: block;
+    width: 15rem;
+    max-width: 100%;
+    margin: 0 auto 1.5rem;
+  }
+}
