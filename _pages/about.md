@@ -11,7 +11,7 @@ classes:
 
 *Data Platform Consultant, Trainer, and Speaker*
 
-<img src="/assets/images/jason-portrait.jpg" class="about-page__portrait" alt="Portrait of Jason Horner" width="480" height="720" decoding="async">
+<img src="/assets/images/jason-portrait.jpg" class="about-page__portrait" alt="Portrait of Jason Horner" width="256" height="384" decoding="async">
 
 Hi, I'm Jason! I'm an independent consultant, trainer, and speaker, and the founder of [Empty Cup Consulting](https://emptycupconsulting.com/).
 
