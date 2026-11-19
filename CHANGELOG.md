@@ -7,6 +7,10 @@ This website does not currently publish numbered releases or follow a declared S
 
 ## [Unreleased]
 
+### Fixed
+
+- Corrected the homepage's oval author photo by using the owner's approved square avatar (#21).
+
 ### Changed
 
 - Updated the homepage author portrait and refreshed X branding in the social links (#19).
